@@ -1,54 +1,84 @@
-# React + TypeScript + Vite
+![gif do pomodoro](./assets/images/pomodoro-timer.gif)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🇬🇧 English
 
-Currently, two official plugins are available:
+## Pomodoro Timer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was created to practice React concepts. It features a functional Pomodoro timer with a clean and interactive interface, serving as a hands-on exercise in modern React development.
 
-## Expanding the ESLint configuration
+### Technologies used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Vite**: Used as the build tool and development server.
+- **styled-components**: Utilized for writing CSS-in-JS.
+- **React**: The main JavaScript library used to build the user interface and manage component state.
+- **Context API**: Employed to manage and share global state across components without prop drilling.
+- **useReducer**: Used for handling complex state logic and state transitions in a predictable way within the timer functionality.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Fully functional Pomodoro timer with options to start and interrupt sessions.
+- History of previous cycles, displaying each cycle and its current status.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### How to run the project
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Clone this repository to your computer with the command:
+   ```
+   git clone https://github.com/juliadesouza/pomodoro-timer.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd pomodoro-timer
+   ```
+3. Install the dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Run the project:
+
+   ```
+   cd pomodoro-timer
+   ```
+
+---
+
+# 🇧🇷 Português
+
+## Pomodoro Timer
+
+Este projeto foi criado para praticar conceitos do React. Ele apresenta um timer Pomodoro funcional com uma interface limpa e interativa, servindo como um exercício prático de desenvolvimento moderno com React.
+
+### Tecnologias utilizadas
+
+- **Vite**: Utilizado como ferramenta de build e servidor de desenvolvimento.
+- **styled-components**: Utilizado para escrever CSS-in-JS.
+- **React**: Principal biblioteca JavaScript usada para construir a interface do usuário e gerenciar o estado dos componentes.
+- **Context API**: Empregada para gerenciar e compartilhar o estado global entre os componentes sem a necessidade de prop drilling.
+- **useReducer**: Usado para lidar com lógica de estado complexa e transições de estado de forma previsível dentro da funcionalidade do timer.
+
+### Funcionalidades
+
+- Timer Pomodoro totalmente funcional com opções para iniciar e interromper sessões.
+- Histórico dos ciclos anteriores, exibindo cada ciclo e seu status atual.
+
+### Como rodar o projeto
+
+1. Clone este repositório para o seu computador com o comando:
+   ```
+   git clone https://github.com/juliadesouza/pomodoro-timer.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```
+   cd pomodoro-timer
+   ```
+3. Instale as dependências:
+   ```
+   npm install
+   ```
+4. Rode o projeto:
+   ```
+   cd pomodoro-timer
+   ```
+
+---
