@@ -38,7 +38,7 @@ This project was created to practice React concepts. It features a functional Po
 4. Run the project:
 
    ```
-   cd pomodoro-timer
+   npm run dev
    ```
 
 ---
@@ -78,7 +78,7 @@ Este projeto foi criado para praticar conceitos do React. Ele apresenta um timer
    ```
 4. Rode o projeto:
    ```
-   cd pomodoro-timer
+   npm run dev
    ```
 
 ---
